@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".InputNilai">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="12pt"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:text="INPUT NILAI MAHASISWA" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:background="#eceff1"
+      android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text="Input NIM" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text="Input Nama" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text="Input Jmlh Presen Kehadiran" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text="Input Nilai Tugas" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text="Input Nilai UTS" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text="Input Nilai UAS" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text=":" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text=":" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text=":" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text=":" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text=":" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/black"
+          android:text=":" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp">
+
+      <EditText
+          android:id="@+id/nim"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2" />
+      <EditText
+          android:id="@+id/nama"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2" />
+      <EditText
+          android:id="@+id/presensi"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2" />
+      <EditText
+          android:id="@+id/nilaitugas"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2" />
+      <EditText
+          android:id="@+id/nilaiuts"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2" />
+      <EditText
+          android:id="@+id/nilaiuas"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/btnsubmit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:onClick="submit"
+      android:text="SUBMIT" />
+
+  <TextView
+      android:id="@+id/matakuliah"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:text="" />
+
+</LinearLayout>
